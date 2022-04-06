@@ -238,6 +238,64 @@
                             }
                         ]
                     },
+
+
+
+                    {
+                        "manipulators": [
+                            {
+                                "description": "HOME to Command+A",
+                                "from": {
+                                    "key_code": "home",
+                                    "modifiers": {
+                                        "mandatory": [
+                                        ],
+                                        "optional": [
+                                          "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "a",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "manipulators": [
+                          {
+                              "description": "END to Command+E",
+                              "from": {
+                                  "key_code": "end",
+                                  "modifiers": {
+                                      "mandatory": [
+                                      ],
+                                      "optional": [
+                                        "shift"
+                                      ]
+                                  }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "e",
+                                      "modifiers": [
+                                          "left_command"
+                                      ]
+                                  }
+                              ],
+                              "type": "basic"
+                          }
+                        ]
+                    },
+
+
+
                     {
                         "manipulators": [
                             {
